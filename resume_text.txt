@@ -1,0 +1,99 @@
+AJITH  K
+Palakkad  |+91 8921172797    |ajithprakash.work@gmail.com
+EDUCATION
+JavaFullstackDevelopment
+Brototype
+July2023-July2024
+DiplomainElectrical
+GovtITIDeshamangalam
+2020-2022
+LINKS
+Github://  ajith kprakash
+LinkedIn://  ajith kprakash
+SKILLS
+PROGRAMMING
+Backend
+•Java
+•Spring
+•Spring  Boot
+•JPA
+•Hibernate
+•Criteria  Queries
+•Keycloak
+•APISIX
+•Rabbitmq
+•Kafka
+•Zookeeper
+•Tomcat
+•Linux
+•Vim
+•Design  Patterns
+•REST  API
+•Collections  Framework
+•Exception  Handling
+•Microservices
+Databases
+•Neo4j
+•Solr
+•PostgreSQL
+•MySQL
+•Cassandra
+Familiarwith
+•Git
+•Docker
+•Kubernetes
+•Jenkins
+•GitHub  Actions
+•AWS  (EC2)
+LANGUAGES
+•English •Malayalam
+ABOUT
+Research-oriented    Backend  Developer  with experience   in designing  and developing
+highly scalable  APIs using Java, Spring, and Spring  Boot. Strong  background   in
+building  microservices   and optimizing  backend  performance.   Experienced   in leading
+and collaborating  with teams to deliver reliable, production-ready    solutions.
+Committed   to continuous   learning, problem-solving,   and applying  best practices to
+create  efficient and maintainable   systems.
+WORKEXPERIENCE
+BACKENDDEVELOPER
+NECTAR.  Ernakulam,                   Kerala
+July2024-Present
+• Collaborated   with frontend  and mobile  developers   to build highly scalable  APIs,
+including complex  filtered and paginated  endpoints.  Managed  multiple
+databases  for different purposes  — Neo4j for hierarchy  management,   Solr for
+search, PostgreSQL   for relational  data, and Cassandra  for historical  data
+storage.
+• Worked  on complete  end-to-end   installation  of the product,  including Keycloak,
+APISIX, Tomcat,  RabbitMQ,   Kafka, Zookeeper,   and multiple  databases.
+Successfully  created  areplica of the production   environment   in the office for
+staging and testing purposes.
+• Participated  in agile ceremonies,  consistently  delivering  high-quality  code on
+tight deadlines.
+• Engaged  in product  releases  and code reviews  with senior developers   and team
+leads.
+PROJECTS
+• CAFM   with  IoT Integration:
+Developed   custom  APIs supporting   pagination,
+complex  hierarchical  filters, and flexible data grouping  (hourly, monthly,  yearly)
+to enable  efficient facility management    and real-time  data processing.
+Worked  on real-time  site integration  by connecting   physical  equipment  to the
+system  through  sensors  and gateways,  enabling  data flow via RabbitMQ
+message  queues.
+• Attendance     Management      System:   Designed   and developed  the backend
+module  for real-time  attendance   tracking, including employee   status
+visualization,  shift-wise  reporting,  and exportable  summaries.   Implemented
+geofence-based    location  tracking  logic.
+• Planned   Preventive    Maintenance     (PPM)  Automation:     Worked  on
+automatic  PPM job generation   across  allhierarchical  levels, enabling
+configurable   scheduling  (monthly,  quarterly,  yearly). Automated   the creation  of
+maintenance   jobs to streamline  facility operations  and reduce  manual
+intervention.
+MINIPROJECTS
+PLAN-B   |
+• Plan-B  is aproject management    tool that allows users to efficiently plan
+and manage  work  by dividing  tasks and assigning  them  to team
+members,   enabling  timely project completion.
+• Technologies   Used: Spring  Boot, Hibernate,  PostgreSQL,   React, Docker,
+Git
+• Github://  plan  b
+----------------Page (0) Break----------------

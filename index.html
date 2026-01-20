@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Ajith K, a Backend Developer specializing in Java, Spring Boot, and Microservices.">
+    <title>Ajith K | Backend Developer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">&lt;Ajith/&gt;</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="theme-toggle-item">
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to light theme">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Ajith K</h1>
+                <h2 class="role">Backend Developer</h2>
+                <p class="hero-description">
+                    Building highly scalable APIs and robust microservices with <span class="highlight">Java</span>,
+                    <span class="highlight">Spring Boot</span>, and <span class="highlight">Kafka</span>.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="Ajith_k_Java_Resume.pdf" class="btn btn-secondary" download="Ajith_K_Resume.pdf">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block">
+                    <pre><code class="language-java">
+@Service
+public class BackendDev {
+    
+    private final String name = "Ajith K";
+    
+    public void buildSystems() {
+        log.info("Scaling APIs...");
+        log.info("Optimizing DBs...");
+        log.info("Deploying Microservices...");
+    }
+}
+</code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a <strong>Research-oriented Backend Developer</strong> with experience in designing and
+                        developing highly scalable APIs using Java, Spring, and Spring Boot.
+                    </p>
+                    <p>
+                        I have a strong background in building microservices and optimizing backend performance. I am
+                        experienced in leading and collaborating with teams to deliver reliable, production-ready
+                        solutions. I am committed to continuous learning, problem-solving, and applying best practices
+                        to create efficient and maintainable systems.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>1+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Technologies</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>4+</h3>
+                        <p>Major Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend Core</h3>
+                    <div class="skill-tags">
+                        <span>Java</span>
+                        <span>Spring</span>
+                        <span>Spring Boot</span>
+                        <span>JPA</span>
+                        <span>Hibernate</span>
+                        <span>REST API</span>
+                        <span>Microservices</span>
+                        <span>Design Patterns</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infrastructure & Messaging</h3>
+                    <div class="skill-tags">
+                        <span>Kafka</span>
+                        <span>RabbitMQ</span>
+                        <span>Zookeeper</span>
+                        <span>APISIX</span>
+                        <span>Keycloak</span>
+                        <span>Tomcat</span>
+                        <span>Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span>
+                        <span>MySQL</span>
+                        <span>Neo4j</span>
+                        <span>Solr</span>
+                        <span>Cassandra</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>AWS (EC2)</span>
+                        <span>Jenkins</span>
+                        <span>GitHub Actions</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">July 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer</h3>
+                        <h4>nectar it, Ernakulam</h4>
+                        <ul>
+                            <li>Collaborated with frontend and mobile developers to build highly scalable APIs,
+                                including complex filtered and paginated endpoints.</li>
+                            <li>Managed multiple databases: Neo4j (hierarchy), Solr (search), PostgreSQL (relational),
+                                and Cassandra (historical).</li>
+                            <li>Executed end-to-end product installation including Keycloak, APISIX, TomCat, RabbitMQ,
+                                Kafka, and Zookeeper.</li>
+                            <li>Created a replica of the production environment for staging and testing.</li>
+                            <li>Participated in agile ceremonies and engaged in code reviews.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">July 2023 - July 2024</div>
+                    <div class="timeline-content">
+                        <h3>Java Fullstack Development Trainee</h3>
+                        <h4>Brototype</h4>
+                        <p>Intensive training program focusing on full-stack development best practices, data
+                            structures, and real-world project implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>CAFM with IoT Integration</h3>
+                        <p class="project-desc">Developed custom APIs supporting pagination and complex hierarchical
+                            filters. Integrated physical equipment via sensors and gateways using RabbitMQ message
+                            queues for real-time data flow.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>RabbitMQ</span>
+                            <span>IoT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Attendance Management System</h3>
+                        <p class="project-desc">Designed the backend for real-time attendance tracking with
+                            geofence-based location logic, status visualization, shift-wise reporting, and exportable
+                            summaries.</p>
+                        <div class="project-tags">
+                            <span>Backend</span>
+                            <span>Geofencing</span>
+                            <span>Reporting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>PPM Automation</h3>
+                        <p class="project-desc">Automated Planned Preventive Maintenance job generation across
+                            hierarchical levels with configurable scheduling (monthly, quarterly, yearly), reducing
+                            manual intervention.</p>
+                        <div class="project-tags">
+                            <span>Automation</span>
+                            <span>Scheduling</span>
+                            <span>Spring</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Plan-B</h3>
+                        <p class="project-desc">A project management tool allowing users to efficiently plan and manage
+                            work by dividing tasks and assigning them to team members.</p>
+                        <div class="project-tags">
+                            <span>Spring Boot</span>
+                            <span>React</span>
+                            <span>Docker</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your
+                    visions.</p>
+                <div class="contact-methods">
+                    <a href="mailto:ajithprakash.work@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ajithprakash.work@gmail.com</span>
+                    </a>
+                    <a href="tel:+918921172797" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 8921172797</span>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/ajithkrkd" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ajith-k-prakash" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ajith K. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
