@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cursorDot = document.querySelector('.cursor-dot');
     const cursorOutline = document.querySelector('.cursor-outline');
     const themeToggle = document.querySelector('#themeToggle');
+    const contactForm = document.querySelector('#contactForm');
     const prefersTouch = matchMedia('(hover: none)').matches;
 
     // Theme (dark/light)
@@ -45,6 +46,25 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggle.addEventListener('click', () => {
             const current = root.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
             applyTheme(current === 'light' ? 'dark' : 'light');
+        });
+    }
+
+    // Contact form -> opens mail client (no backend needed)
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const name = (document.querySelector('#contactName')?.value || '').trim();
+            const email = (document.querySelector('#contactEmail')?.value || '').trim();
+            const message = (document.querySelector('#contactMessage')?.value || '').trim();
+
+            const to = 'ajithprakash.work@gmail.com';
+            const subject = encodeURIComponent(`Portfolio contact from ${name || 'Someone'}`);
+            const body = encodeURIComponent(
+                `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n`
+            );
+
+            window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
         });
     }
 
